@@ -2,14 +2,14 @@ const express = require('express')
 const app = express()
 const PORT = 8000
 const MongoClient = require('mongodb').MongoClient
-const bodyParser = require('body-parser');
+// const bodyParser = require('body-parser');
 
 
 let db,
-    dbConnectionStr = 'mongodb+srv://george:wackoacko1994@cluster0.7hspw.mongodb.net/rap-list?retryWrites=true&w=majority'
+    dbConnectionStr = 'mongodb+srv://george:password@cluster0.7hspw.mongodb.net/rap-list?retryWrites=true&w=majority'
     dbName = 'rap'
 
-app.use(bodyParser());
+// app.use(bodyParser());
 
 
 
